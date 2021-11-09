@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculadora</title>
+    <script src="calculadora.js"></script>
+
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+
+    <select id="operaciones" name="operaciones">
+        <option suma="suma">Suma</option>
+        <option resta="resta" selected>Resta</option>
+        <option multiplicacion="multiplicacion">Multiplicación</option>
+        <option division="division">División</option>
+      </select>
+
+    <form action="" method="post">
+        <ul>
+            <li>
+                <label for="name">Numero1:</label>
+                <input type="number" id="numone" name="numone">
+            </li>
+            <br>
+            <li>
+                <label for="mail">Numero2:</label>
+                <input type="number" id="numtwo" name="numtwo">
+            </li>
+            <br>
+
+            <li>
+                <label for="msg">Resultado:</label>
+                <textarea id="Resultado" name="Resultado"></textarea>
+            </li>
+
+        </ul>
+
+    </form>
+
+    <!-- The second value will be selected initially -->
+
+
+</body>
+<script src="calculadora.js"></script>
+
+
+<input type="button" value="Calcula" onclick="Suma()" />
+
+</html>
