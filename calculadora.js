@@ -6,7 +6,7 @@
 
 
 //(function() {
-// your page initialization code here
+// your page initialization code here :D
 // the DOM will be available here
 //document.getElementById("calcula");
 //document.getElementById("calcula");
@@ -14,6 +14,7 @@
 //console.log(document.getElementById("numtwo"));
 //return numone * numtwo;
 //})();
+//By Natalia 
 
 function Suma() {
     var one = document.getElementById("numone").value;
